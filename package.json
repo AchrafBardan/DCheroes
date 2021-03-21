@@ -1,0 +1,20 @@
+{
+  "name": "DCheroes",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss-cli@latest build ./css/build.css -o ./css/dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchrafBardan/DCheroes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchrafBardan/DCheroes/issues"
+  },
+  "homepage": "https://github.com/AchrafBardan/DCheroes#readme",
+  "description": ""
+}

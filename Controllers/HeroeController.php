@@ -16,7 +16,14 @@
 
         public function getHeroeById($id)
         {
-            $response = $this->database->query("SELECT * FROM heroes WHERE id='$id'")->fetch_row();
+            $response = $this->database->query("SELECT * FROM heroes WHERE id='$id';")->fetch_row();
+
+            return $response;
+        }
+
+        public function getPowersByHeroeId($id)
+        {
+            $response = $this->database->query("SELECT * FROM powers WHERE heroe_id='$id';")->fetch_all();
 
             return $response;
         }

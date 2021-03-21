@@ -18,7 +18,7 @@ class ReviewController{
             $total += $review[1];
         }
         
-        return round($total / $count,1);
+        return round($total / $count);
     }
 
     public function createReviewHeroe($id, $stars)
